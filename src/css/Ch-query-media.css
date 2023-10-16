@@ -1,0 +1,110 @@
+/* .ch-toggle-view {
+    display: none !important;
+} */
+
+@media only screen and (max-width: 768px) {
+
+    /* Estilos para dispositivos móviles */
+    body,
+    html {
+        width: 100vw;
+        max-width: 100vw;
+        min-height: 0dvh;
+        max-height: 100dvh;
+        /* max-height: 100vh; */
+    }
+
+    .ch-container {
+        overflow: hidden;
+        width: 100vw;
+        max-width: 100vw;
+        min-height: 0dvh;
+        max-height: 100dvh;
+        /* max-height: 100vh; */
+    }
+
+    .ch-container .ch-container-message .ch-card-info-contact .ch-body-info .ch-body-item-icon:nth-child(1) {
+        display: flex !important;
+    }
+
+    .ch-container .ch-container-menu {
+        min-width: 100vw;
+        max-width: 100vw;
+        min-height: 0dvh;
+        max-height: 100dvh;
+        position: relative;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transition: .2s ease-in-out transform;
+        -webkit-transition: .2s ease-in-out transform;
+        -moz-transition: .2s ease-in-out transform;
+        -ms-transition: .2s ease-in-out transform;
+        -o-transition: .2s ease-in-out transform;
+    }
+
+    .ch-container .ch-container-message {
+        min-width: 100vw;
+        max-width: 100vw;
+        min-height: 0dvh;
+        max-height: 100dvh;
+        position: relative;
+        transform: translateX(-100%);
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transition: .2s ease-in-out transform;
+        -webkit-transition: .2s ease-in-out transform;
+        -moz-transition: .2s ease-in-out transform;
+        -ms-transition: .2s ease-in-out transform;
+        -o-transition: .2s ease-in-out transform;
+    }
+
+    .ch-container .ch-container-menu.active {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transition: .2s ease-in-out transform;
+        -webkit-transition: .2s ease-in-out transform;
+        -moz-transition: .2s ease-in-out transform;
+        -ms-transition: .2s ease-in-out transform;
+        -o-transition: .2s ease-in-out transform;
+    }
+
+    .ch-container .ch-container-menu.active~.ch-container-message {
+        transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transition: .2s ease-in-out transform;
+        -webkit-transition: .2s ease-in-out transform;
+        -moz-transition: .2s ease-in-out transform;
+        -ms-transition: .2s ease-in-out transform;
+        -o-transition: .2s ease-in-out transform;
+    }
+
+    .ch-container .ch-container-message .ch-body-content-message .ch-list-content-message {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .ch-container .ch-container-message .ch-body-content-message .ch-list-content-message .ch-message-receptor .ch-message,
+    .ch-container .ch-container-message .ch-body-content-message .ch-list-content-message .ch-message-emisor .ch-message {
+        max-width: 100%;
+    }
+
+    .ch-container .ch-footer-content-send .ch-msag-send-items .ch-msag-send-item:nth-child(1) .whatsapp-input-container .whatsapp-input {
+        max-width: 73%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+
+    /* Estilos para computadoras de escritorio */
+
+}
